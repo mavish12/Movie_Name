@@ -1,5 +1,5 @@
 import { NavLink, useParams } from "react-router-dom";
-import useFetch from "./useFetch";
+// import useFetch from "./useFetch";
 import { API_URL } from "./context";
 import { useEffect, useState } from "react";
 

@@ -25,7 +25,7 @@ const Movies = () => {
                 <div className='card'>
                   <div className='card-info'>
                     <h2>{movieName.length >= 15 ? `${movieName}...` : movieName}</h2>
-                    <img src={Poster}/>
+                    <img src={Poster} alt='Movie Image'/>
                   </div>
                 </div>
               </NavLink>
